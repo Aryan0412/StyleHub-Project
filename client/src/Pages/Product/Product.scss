@@ -1,0 +1,110 @@
+.product{
+    padding: 1.1rem 2.7rem;
+    display: flex;
+    gap: 50px;
+    .left{
+        display: flex;
+        flex : 1;
+        gap: 20px;
+        .images{
+            flex:1;
+            img{
+                width: 100%;
+                height: 8.33rem;
+                object-fit: cover;
+                cursor: pointer;
+                margin-bottom: 10px;
+            }
+
+        }
+        .mainImg{
+            flex:5;
+            img{
+                width: 100%;
+                height: 44.44rem;
+                object-fit: cover;
+
+            }
+        }
+    }
+    .right{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        .price{
+            font-size: 30px;
+            color: #2879fe;
+            font-weight: 500;
+
+        }
+        p{
+            font-size: 1rem;
+            font-weight: 100;
+            text-align: justify;
+
+        }
+        .quantity{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            button{
+                width: 2.7rem;
+                height: 2.7rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                border: none;
+            }
+
+        }
+        .add{
+            width: 13.88rem;
+            padding: 0.5rem;
+            background-color:#2879fe;
+            border: none;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            cursor: pointer;
+            font-weight: 500;
+
+        }
+        .link{
+            display: flex;
+            gap: 20px;
+            .item{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                color: #2879fe;
+                font-size: 0.77rem;
+                cursor: pointer;
+            }
+        }
+        .info{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            color: gray;
+            margin-top: 1.6rem;
+            font-size: 0.77rem;
+
+            hr{
+                width: 11.11rem;
+                border: 1px solid rgb(234, 232, 232);
+            }
+
+        }
+        hr{
+            border: 1px solid rgb(234, 232, 232);
+        }
+    
+    }
+
+
+}
